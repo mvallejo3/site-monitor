@@ -6,8 +6,8 @@ from sendgrid.helpers.mail import Mail
 class Email_Sender:
     sg = None
     message = None
-    from_email = "info@photon.software"
-    to_email = "mvallejo3@gmail.com"
+    from_email = "__FROM_EMAIL__"
+    to_email = "__TO_EMAIL__"
     subject = ''
     content = ''
 
