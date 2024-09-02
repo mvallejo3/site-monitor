@@ -31,7 +31,7 @@ python3 remove_domain.py
 
 You will have to enter the whole url - i.e. `https://photon.software` - in order to add or remove sites. I will probably update this to be easier in the future. Maybe allow bulk updates, and simply passing the domain `photon.software` would be nice.
 
-### Stort monitoring
+### Start monitoring
 
 When you are ready to start monitoring, push to a server and setup a cron job:
 
