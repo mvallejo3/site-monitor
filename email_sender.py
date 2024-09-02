@@ -48,7 +48,7 @@ class Email_Sender:
         except Exception as e:
             print(str(e))
 
+# Test 
 if (__name__ == '__main__'):
     sender = Email_Sender()
-    sender.build_message('cms.you.suck')
-    sender.try_send()
+    sender.try_send('this.wont.work', 'off')
